@@ -1,0 +1,7 @@
+<h1>create a new article:</h1>
+
+<%= form_for (@article) do |f| %>
+Title : <%= f.text_field :title %>
+content : <%= f.text_field :content %>
+<%= f.submit%>
+<% end %>
